@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+ int main ()
+ {
+    /* Martínez Lira Irak Emmanuel
+       Equipo Los ocho tristes burros
+       1 de mayo del 2021
+       Programa numero 2  Identificar cuanto cammbio me sobra despues de realizar 5 compras*/
+    
+    float saldoinicial, gastouno, gastodos, gastotres, gastocuatro, gastocinco, cambiototal;
+    printf("\n Programa 2");
+    printf("\n\n Dame el gasto numero uno");
+    scanf("%f", &saldoinicial);
+    printf("\n\n Dame el gasto numero uno");
+    scanf("%f", &gastouno);
+    printf("\n\n Dame el gasto numero uno");
+    scanf("%f", &gastodos);
+    printf("\n\n Dame el gasto numero uno");
+    scanf("%f", &gastotres);
+    printf("\n\n Dame el gasto numero uno");
+    scanf("%f", &gastocuatro);
+    printf("\n\n Dame el gasto numero uno");
+    scanf("%f", &gastocinco);
+    cambiototal=saldoinicial -gastouno -gastodos -gastotres -gastocuatro -gastocinco;
+    printf("\n\n El cambio total es %f", cambiototal);
+
+    return 0;
+}
