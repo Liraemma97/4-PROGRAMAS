@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+ int main ()
+ {
+    /* Martínez Lira Irak Emmanuel
+       Equipo Los ocho tristes burros
+       3 de mayo del 2021
+       PRACTICA 1 -PROGRAMA 3  Identificar la calificacion de una persona ya dada un numero de preguntas maximo*/
+    
+    float numeropregruntas, preguntasacertadas, califi;
+    printf("\n Programa 1");
+    printf("\n\n Dame el numero de preguntas de tu examen o prueba");
+    scanf("%f", &numeropregruntas);
+    printf("\n\n Dame el numero de preguntas que acertaste");
+    scanf("%f", &preguntasacertadas);
+    califi=preguntasacertadas*100 /numeropregruntas  ;
+    printf("\n\n TU CALIFICACION FINAL ES %f", califi);
+
+    return 0;
+}
