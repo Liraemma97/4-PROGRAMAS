@@ -8,7 +8,7 @@
        PRACTICA 2 -PROGRAMA 4  IDENTIFICAR CUANTO DINERO DE LA BECA HAZ RECIBIDO HASTA EL DIA DE HOY*/
     
     float numerobeca, montotal;
-    printf("\n Programa 1");
+    printf("\n Programa 2");
     printf("\n\n ¿cuantas becas has cobrado cada 4 meses hasta el dia de hoy?");
     scanf("%f", &numerobeca);
     montotal=3200*numerobeca ;
