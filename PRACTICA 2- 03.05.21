@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+ int main ()
+ {
+    /* Martínez Lira Irak Emmanuel
+       Equipo Los ocho tristes burros
+       3 de mayo del 2021
+       PRACTICA 2 -PROGRAMA 4  IDENTIFICAR CUANTO DINERO DE LA BECA HAZ RECIBIDO HASTA EL DIA DE HOY*/
+    
+    float numerobeca, montotal;
+    printf("\n Programa 1");
+    printf("\n\n ¿cuantas becas has cobrado cada 4 meses hasta el dia de hoy?");
+    scanf("%f", &numerobeca);
+    montotal=3200*numerobeca ;
+    printf("\n\n el monto total de tu dinero hasta hoy es de %f", montotal);
+
+    return 0;
+}
